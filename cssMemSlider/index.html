@@ -12,6 +12,11 @@
 <body>
     <div class="mem-slider-wrapper">
         <div class="mem-slider">
+            <input type="radio" id="r1" name="button" checked>
+            <input type="radio" id="r2" name="button">
+            <input type="radio" id="r3" name="button">
+            <input type="radio" id="r4" name="button">
+
             <div class="mem-slider__window">
                 <div class="mem-slider__mems">
                     <img class="mem-img" src="mems/mem1.jpg" alt="stupid mem 1">
@@ -20,15 +25,26 @@
                     <img class="mem-img" src="mems/mem4.jpg" alt="stupid mem 4">
                 </div>
             </div>
+
+            <nav class="mem-slider__radiobuttons">
+                <div class="mem-slider_input-zone">
+                    <label for="r1" class="mem-slider__radio-input r1-input"></label>
+                </div>
+                <div class="mem-slider_input-zone">
+                    <label for="r2" class="mem-slider__radio-input r2-input"></label>
+                </div>
+                <div class="mem-slider_input-zone">
+                    <label for="r3" class="mem-slider__radio-input r3-input"></label>
+                </div>
+                <div class="mem-slider_input-zone">
+                    <label for="r4" class="mem-slider__radio-input r4-input"></label>
+                </div>
+            </nav>
+
             <div class="mem-slider__text-area">
                 something funny
             </div>
-            <nav class="mem-slider__radiobuttons">
-                <input type="radio" id="1" name="button" value="">
-                <input type="radio" id="2" name="button" value="">
-                <input type="radio" id="3" name="button" value="">
-                <input type="radio" id="4" name="button" value="">
-            </nav>
+
         </div>
     </div>
 </body>
